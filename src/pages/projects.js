@@ -1,15 +1,13 @@
 import React from "react"
 import Footer from '../components/footer'
 import Header from '../components/header'
+import Layout from '../components/layout'
 
 const ProjectsPage = () => {
     return (
-        <div>
-            <Header/>
+        <Layout>
             <h1>Projects</h1>
-            <Footer></Footer>
-            
-        </div>
+        </Layout>
     )
 }
 export default ProjectsPage
