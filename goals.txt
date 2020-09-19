@@ -1,0 +1,7 @@
+GOAL 1 - generayte slug
+
+gatsby.md -> gatsby -> /projects/gatsby
+
+Goal 2 - generate blog post page template
+
+goal 3 - new page per post
