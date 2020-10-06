@@ -1,20 +1,27 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from 'gatsby'
-
+import Img from 'gatsby-image'
 
 
 const ProjectsList = () => {
     const data = useStaticQuery(graphql`
-    query {
-      allMarkdownRemark {
-        edges {
-          node {
-            frontmatter {
+    query{
+      allMarkdownRemark{
+        edges{
+          node{
+            frontmatter{
               title
               date
+              featuredImage{
+                childImageSharp{
+                  fluid(maxWidth:30){
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
             }
-            fields{
-                slug
+            fields {
+              slug
             }
           }
         }
@@ -29,6 +36,7 @@ const ProjectsList = () => {
                         <Link to={`/projects/${edge.node.fields.slug}`}>
                             <h2>{edge.node.frontmatter.title}</h2>
                             <p>{edge.node.frontmatter.date}</p>
+                            <Img fluid={edge.node.frontmatter.feturedImage.childImageSharp.fluid}/>
                         </Link>
                     </li>
                 )
