@@ -4,9 +4,7 @@ date: "2020-09-17"
 featuredImage: ./Donut.png
 ---
 
-This is my first project
-
-![Donut](./Donut.png)
+This is my first projectzzzz
 
 ## Techniques
 1. Gatsby
