@@ -18,7 +18,6 @@ const Header = () => {
             <Link className={headerStyles.name} to="/">{data.site.siteMetadata.author}</Link>
             <div>
                 <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="../about">About</Link>
-                <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="../projects">Projects</Link>
             </div>
         </div>
     )
