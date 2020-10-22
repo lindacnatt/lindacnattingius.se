@@ -1,9 +1,10 @@
-$fontColor: #1f1f1f;
+$fontColor: #3d3c3c;
 $mainFont: sans-serif;
+$mainColor: #fafafa;
 
 html {
     font-family: $mainFont;
-    
+    background-color: $mainColor;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
   }

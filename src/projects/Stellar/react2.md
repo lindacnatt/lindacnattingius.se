@@ -1,7 +1,7 @@
 ---
 title: "Another Project"
 date: "2020-09-17"
-featuredImage: ./speedphoto.jpg
+featuredImage: ./rocket.png
 ---
 
 nslhfls

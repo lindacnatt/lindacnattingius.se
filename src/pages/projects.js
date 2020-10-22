@@ -1,10 +1,11 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import Img from 'gatsby-image'
+import projectStyles from './projects.module.scss'
 
 
 const ProjectsPage = () => {
-    const data = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query{
       allMarkdownRemark{
         edges{
@@ -14,7 +15,7 @@ const ProjectsPage = () => {
               date
               featuredImage{
                 childImageSharp{
-                  fixed(width:300){
+                  fixed(width:300, height: 300){
                     ...GatsbyImageSharpFixed
                   }
                 }
@@ -28,21 +29,23 @@ const ProjectsPage = () => {
       }
     }
     `)
-    return (
-        <div>
-            {data.allMarkdownRemark.edges.map((edge) => {
-                return (
-                    <div key={edge.node.frontmatter.title}>
-                        <Link to={`/projects/${edge.node.fields.slug}`}>
-                            <h2>{edge.node.frontmatter.title}</h2>
-                            <p>{edge.node.frontmatter.date}</p>
-                            <Img fixed={edge.node.frontmatter.featuredImage.childImageSharp.fixed} />
-                        </Link>
-                    </div>
-                )
-            })}
-        </div>
-    )
+  return (
+    <div className={projectStyles.cardContainer}>
+      {data.allMarkdownRemark.edges.map((edge) => {
+        return (
+          <div key={edge.node.frontmatter.title} className={projectStyles.card}>
+            <Img className={projectStyles.featuredImage} fixed={edge.node.frontmatter.featuredImage.childImageSharp.fixed} />
+            <div className={projectStyles.info}>
+              <h2>{edge.node.frontmatter.title}</h2>
+              <Link to={`/projects/${edge.node.fields.slug}`}>
+                <p>See more</p>
+              </Link>
+            </div>
+          </div>
+        )
+      })}
+    </div>
+  )
 
 }
 export default ProjectsPage
