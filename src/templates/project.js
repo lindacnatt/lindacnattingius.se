@@ -12,7 +12,7 @@ query ($slug:String) {
         date
         featuredImage{
           childImageSharp{
-            fixed(width:300, height:300){
+            fixed(width:200, height:200){
               ...GatsbyImageSharpFixed
             }
           }
