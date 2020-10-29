@@ -15,8 +15,8 @@ const ProjectsPage = () => {
               date
               featuredImage{
                 childImageSharp{
-                  fixed(width:300, height: 300){
-                    ...GatsbyImageSharpFixed
+                  fluid(maxWidth:600, maxHeight: 500){
+                    ...GatsbyImageSharpFluid
                   }
                 }
               }
@@ -34,13 +34,13 @@ const ProjectsPage = () => {
       {data.allMarkdownRemark.edges.map((edge) => {
         return (
           <div key={edge.node.frontmatter.title} className={projectStyles.card}>
-            <Img className={projectStyles.featuredImage} fixed={edge.node.frontmatter.featuredImage.childImageSharp.fixed} />
             <div className={projectStyles.info}>
               <h2>{edge.node.frontmatter.title}</h2>
               <Link to={`/projects/${edge.node.fields.slug}`}>
                 <p>See more</p>
               </Link>
             </div>
+            <Img className={projectStyles.featuredImage} fluid={edge.node.frontmatter.featuredImage.childImageSharp.fluid} />
           </div>
         )
       })}
