@@ -9,10 +9,8 @@
   max-height: 500px;
   min-height: 200px;
   justify-content: space-evenly;
-  box-shadow: 0px 5px 15px 0px rgba(58, 57, 57, 0.424);
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.151);
   margin-bottom: 2rem;
-  background-color: #ffffff;
-  border-radius: 20px;
   overflow: hidden;
 
   .featuredImage {
@@ -21,6 +19,40 @@
 
   .info {
     flex-grow: 1;
-    padding: 50px;
+    margin: 30px;
   }
+
+  @media screen and (max-width: 450px) {
+   h2 {
+      font-size: 18px;
+    }
+    .info{
+      margin: 15px;
+    }
+
+
+  
+  }
+  @media screen and (max-width: 600px) and (min-width: 450px){
+    h2 {
+      font-size: 22px;
+    }
+    .info{
+      margin: 20px;
+    }
+
+  }
+  
+}
+
+
+.moreButton{
+  background: #12b7bd;
+  width: 80px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+
 }

@@ -36,8 +36,8 @@ const ProjectsPage = () => {
           <div key={edge.node.frontmatter.title} className={projectStyles.card}>
             <div className={projectStyles.info}>
               <h2>{edge.node.frontmatter.title}</h2>
-              <Link to={`/projects/${edge.node.fields.slug}`}>
-                <p>See more</p>
+              <Link to={`/projects/${edge.node.fields.slug}`} className={projectStyles.moreButton}>
+                See more
               </Link>
             </div>
             <Img className={projectStyles.featuredImage} fluid={edge.node.frontmatter.featuredImage.childImageSharp.fluid} />
