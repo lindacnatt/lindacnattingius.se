@@ -12,8 +12,8 @@ query ($slug:String) {
         date
         featuredImage{
           childImageSharp{
-            fixed(width:200, height:200){
-              ...GatsbyImageSharpFixed
+            fluid(maxWidth:600, maxHeight: 500){
+              ...GatsbyImageSharpFluid
             }
           }
         }
@@ -25,11 +25,15 @@ query ($slug:String) {
 const ProjectTemplate = (props) => {
     return (
         <Layout>
-            <h1>{props.data.markdownRemark.frontmatter.title}</h1>
+          <div className="Card">
+            <div className="mainInfo">
+          <h1 className="H1">{props.data.markdownRemark.frontmatter.title}</h1>
             <p>{props.data.markdownRemark.frontmatter.date}</p>
             <div dangerouslySetInnerHTML= {{__html: props.data.markdownRemark.html}}>
             </div>
-            <Img fixed={props.data.markdownRemark.frontmatter.featuredImage.childImageSharp.fixed} />
+            </div>
+            <Img fluid={props.data.markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />
+          </div>
         </Layout>
     )
 

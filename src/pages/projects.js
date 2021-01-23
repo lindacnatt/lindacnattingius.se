@@ -13,6 +13,8 @@ const ProjectsPage = () => {
             frontmatter{
               title
               date
+              categories
+              description
               featuredImage{
                 childImageSharp{
                   fluid(maxWidth:600, maxHeight: 500){
@@ -35,9 +37,15 @@ const ProjectsPage = () => {
         return (
           <div key={edge.node.frontmatter.title} className={projectStyles.card}>
             <div className={projectStyles.info}>
-              <h2>{edge.node.frontmatter.title}</h2>
+              <p className="H2">{edge.node.frontmatter.title}</p>
+              <div className={projectStyles.categories}> {edge.node.frontmatter.categories.map((category, index) => {
+                return (
+                  <p className="D">{category}</p>
+                )})}
+              </div>
+              <p className={projectStyles.B}>{edge.node.frontmatter.description}</p>
               <Link to={`/projects/${edge.node.fields.slug}`} className={projectStyles.moreButton}>
-                See more
+                See more 
               </Link>
             </div>
             <Img className={projectStyles.featuredImage} fluid={edge.node.frontmatter.featuredImage.childImageSharp.fluid} />

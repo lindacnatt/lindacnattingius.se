@@ -1,3 +1,14 @@
+$H1: 3.052rem;
+$H2: 2rem;
+$H3: 1.563rem;
+$B: 0.9rem;
+$D: 0.70rem;
+$mainColor: #f6e4e4;
+$SecColor: #dc97eb;
+$ThirdColor: #fab49f;
+$QuadColor: #4b8585;
+
+
 .cardContainer {
   display: flex;
   flex-direction: column;
@@ -6,53 +17,70 @@
 
 .card {
   display: flex;
-  max-height: 500px;
-  min-height: 200px;
-  justify-content: space-evenly;
+  flex-direction: row;
+  max-height: 150vw;
+  min-height: 20vw;
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.151);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   overflow: hidden;
 
   .featuredImage {
-    width: 50%;
+   width: 100%;
   }
 
   .info {
-    flex-grow: 1;
-    margin: 30px;
+    margin: 40px;
+    .B{
+      font-size: $B;
+      padding-bottom: 8rem;
+    }
   }
+
 
   @media screen and (max-width: 450px) {
-   h2 {
-      font-size: 18px;
-    }
     .info{
       margin: 15px;
+      .B{
+        padding-bottom: 2rem;
+      } 
     }
-
-
-  
+    
   }
   @media screen and (max-width: 600px) and (min-width: 450px){
-    h2 {
-      font-size: 22px;
-    }
     .info{
       margin: 20px;
+      .B{
+        padding-bottom: 6rem;
+      }
     }
-
+    
   }
-  
 }
 
+@media screen and (max-width: 450px) {
+  .card{
+    display: flex;
+    flex-direction: column-reverse;
+  } 
+
+}
+
+.categories{
+  display: flex;
+  flex-direction: row;
+  p{
+    padding-right:10px;
+    color: #5f5f5f;
+  }
+}
 
 .moreButton{
-  background: #12b7bd;
-  width: 80px;
-  padding: 10px;
-  text-align: center;
+  padding:1em;
+  font-size: 0.9rem;
   text-decoration: none;
-  color: white;
-  text-decoration: none;
-
+  border-style: solid;
+  border-width: 1px;
+}
+.moreButton:hover{
+  background-color: $SecColor;
 }
