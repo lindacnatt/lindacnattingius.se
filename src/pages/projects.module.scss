@@ -23,6 +23,7 @@ $QuadColor: #4b8585;
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.151);
   margin-bottom: 1rem;
   overflow: hidden;
+  background-color: white;
 
   .featuredImage {
    width: 100%;
@@ -74,6 +75,13 @@ $QuadColor: #4b8585;
   }
 }
 
+.moreButton,
+.moreButton::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
 .moreButton{
   padding:1em;
   font-size: 0.9rem;
@@ -83,4 +91,14 @@ $QuadColor: #4b8585;
 }
 .moreButton:hover{
   background-color: $SecColor;
+}
+.moreButton::after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+}
+
+.moreButton:hover:after {
+  width: 100%;
 }

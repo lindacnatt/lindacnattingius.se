@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Img from 'gatsby-image'
+import projectStyles from './project.module.scss'
 
 export const query = graphql`
 query ($slug:String) {
@@ -23,19 +24,17 @@ query ($slug:String) {
   }`
 
 const ProjectTemplate = (props) => {
-    return (
-        <Layout>
-          <div className="Card">
-            <div className="mainInfo">
+  return (
+    <Layout>
+      <div className={projectStyles.card}>
+       
           <h1 className="H1">{props.data.markdownRemark.frontmatter.title}</h1>
-            <p>{props.data.markdownRemark.frontmatter.date}</p>
-            <div dangerouslySetInnerHTML= {{__html: props.data.markdownRemark.html}}>
-            </div>
-            </div>
-            <Img fluid={props.data.markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />
+          <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}>
           </div>
-        </Layout>
-    )
+          <Img className={projectStyles.featuredImage} fluid={props.data.markdownRemark.frontmatter.featuredImage.childImageSharp.fluid}/>
+      </div>
+    </Layout>
+  )
 
 }
 export default ProjectTemplate

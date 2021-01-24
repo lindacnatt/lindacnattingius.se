@@ -14,7 +14,9 @@ const Hero = () => {
 `)
     return (
         <div className={heroStyles.hero} >
-            <h1 className="H1">{data.site.siteMetadata.author}</h1>
+            <p className="H1">Hello, I'm Linda!</p>
+            <h2 >A developer with a passion for graphic design, animation and experience design</h2>  
+            <p> Scroll down to see some of my work</p>
         </div>
     )
 }
