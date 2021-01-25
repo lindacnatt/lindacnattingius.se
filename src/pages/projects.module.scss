@@ -75,30 +75,19 @@ $QuadColor: #4b8585;
   }
 }
 
-.moreButton,
-.moreButton::after {
-  -webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-	transition: all 0.3s;
-}
+
 .moreButton{
-  padding:1em;
+  padding:0.5em;
   font-size: 0.9rem;
   text-decoration: none;
   border-style: solid;
   border-width: 1px;
+  box-shadow: inset 0 0 0 0 black;
+  transition: ease-out 0.3s;
 }
 .moreButton:hover{
-  background-color: $SecColor;
-}
-.moreButton::after {
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 0;
-}
 
-.moreButton:hover:after {
-  width: 100%;
+  box-shadow: inset 300px 0 0 0 black;
+  color: white;
+  border-color: black;
 }

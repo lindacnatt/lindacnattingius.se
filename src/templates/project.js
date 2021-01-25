@@ -11,9 +11,10 @@ query ($slug:String) {
       frontmatter {
         title
         date
+        categories
         featuredImage{
           childImageSharp{
-            fluid(maxWidth:600, maxHeight: 500){
+            fluid(maxWidth:600, maxHeight: 300){
               ...GatsbyImageSharpFluid
             }
           }
@@ -27,11 +28,17 @@ const ProjectTemplate = (props) => {
   return (
     <Layout>
       <div className={projectStyles.card}>
-       
+      
           <h1 className="H1">{props.data.markdownRemark.frontmatter.title}</h1>
+          <Img className={projectStyles.featuredImage} fluid={props.data.markdownRemark.frontmatter.featuredImage.childImageSharp.fluid}/>
+          <div className={projectStyles.categories}> {props.data.markdownRemark.frontmatter.categories.map((category, index) => {
+                return (
+                  <p className="D">{category}</p>
+                )})}
+          </div>
           <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}>
           </div>
-          <Img className={projectStyles.featuredImage} fluid={props.data.markdownRemark.frontmatter.featuredImage.childImageSharp.fluid}/>
+          
       </div>
     </Layout>
   )
