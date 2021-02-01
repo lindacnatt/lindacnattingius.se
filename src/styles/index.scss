@@ -1,7 +1,7 @@
 $fontColor: #3d3c3c;
 $mainFont: sans-serif;
 $mainColor: #f7f3ec;
-$H1: 3.052rem;
+$H1: 4rem;
 $H2: 2rem;
 $H3: 1.563rem;
 $B: 1rem;
@@ -29,11 +29,9 @@ html {
 
   .H1{
     font-size: $H1;
-    font-weight: bold;
   }
   .H2{
     font-size: $H2;
-    font-weight: bold;
     margin-block-start: 0.1em;
     margin-block-end: 0.1em;
   }

@@ -14,8 +14,8 @@ const Hero = () => {
 `)
     return (
         <div className={heroStyles.hero} >
-            <p className="H1">Hello, I'm Linda!</p>
-            <h2 >A developer with a passion for graphic design, animation and experience design</h2>  
+            <p className="H1">Linda Cnattingius</p>
+            <p className="H2">A developer with a passion for graphic design, animation and experience design</p>  
             <p> Scroll down to see some of my work</p>
         </div>
     )

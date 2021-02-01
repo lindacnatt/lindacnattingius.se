@@ -29,16 +29,15 @@ const ProjectTemplate = (props) => {
     <Layout>
       <div className={projectStyles.card}>
       
-          <h1 className="H1">{props.data.markdownRemark.frontmatter.title}</h1>
-          <Img className={projectStyles.featuredImage} fluid={props.data.markdownRemark.frontmatter.featuredImage.childImageSharp.fluid}/>
+          <h1 className={projectStyles.title} className="H1">{props.data.markdownRemark.frontmatter.title}</h1>
           <div className={projectStyles.categories}> {props.data.markdownRemark.frontmatter.categories.map((category, index) => {
                 return (
                   <p className="D">{category}</p>
                 )})}
           </div>
-          <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}>
-          </div>
-          
+          <Img className={projectStyles.featuredImage} fluid={props.data.markdownRemark.frontmatter.featuredImage.childImageSharp.fluid}/>
+          <div className={projectStyles.projectInfo} dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}>
+          </div>     
       </div>
     </Layout>
   )
