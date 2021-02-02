@@ -17,15 +17,16 @@ const Header = () => {
         }
     `)
     return (
-        <div className={headerStyles.navbar}>
-            <Link className={headerStyles.name} to="/">{data.site.siteMetadata.author}</Link>
-            <button onClick={() => setShowHam(!showHam)}>
-                ham
-                {/* <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="../about">About</Link> */}
-            </button>
-            <Hamburger showHam={showHam} setShowHam={setShowHam}>
-            </Hamburger>
-        </div>
+        <div className={headerStyles.header}>
+            <div className={headerStyles.navbar}>
+                <Link className={headerStyles.name} to="/">{data.site.siteMetadata.author}</Link>
+                <p className={headerStyles.hamburger}  onClick={() => setShowHam(!showHam)}>
+                    ham
+                    {/* <Link className={headerStyles.link} activeClassName={headerStyles.activeNavItem} to="../about">About</Link> */}
+                </p>  
+            </div>
+            <Hamburger showHam={showHam} setShowHam={setShowHam}></Hamburger>   
+    </div>
     )
 }
 export default Header
