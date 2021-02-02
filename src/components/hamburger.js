@@ -8,8 +8,8 @@ import hamburgerStyles from './hamburger.module.scss'
 const Hamburger = ({ showHam, setShotHam }) => {
     const animation = useSpring({
         opacity: showHam ? 1 : 0,
-        transform: showHam ? `translateY(0)` : `translateY(-200)`,
-        config: config.medium
+        transform: showHam ? `translateY(0)` : `translateY(-200%)`,
+        
 
     });
     return (
