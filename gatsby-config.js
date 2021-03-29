@@ -11,6 +11,9 @@ module.exports = {
     author: 'Linda Cnattingius',
 
   },
+  flags: {
+    DEV_SRR: false,
+  },
   plugins: [
     `gatsby-plugin-sass`,
     {

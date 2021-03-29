@@ -22,12 +22,10 @@ const Header = () => {
     return (
         <div className={headerStyles.header}>
             <div className={headerStyles.navbar}>
-                {/* <Link className={headerStyles.name} to="/">{data.site.siteMetadata.author}</Link> */}
-               
-                <FontAwesomeIcon icon={faBars} size="lg" className={headerStyles.hamburger}  onClick={() => setShowHam(!showHam)}>
-                </FontAwesomeIcon>
+                <Link className={headerStyles.link} to="../about">About</Link>
+                <FontAwesomeIcon icon={faBars} className={headerStyles.hamburger}  onClick={() => setShowHam(!showHam)}/>
             </div>
-            <Hamburger showHam={showHam} setShowHam={setShowHam}></Hamburger>   
+            {/* <Hamburger showHam={showHam} setShowHam={setShowHam}></Hamburger>    */}
     </div>
     )
 }

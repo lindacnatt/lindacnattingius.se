@@ -1,8 +1,20 @@
 .card{  
-
+    padding-top: 30px;
 }
-
-
+.tldrCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.151);
+    padding: 20px 20px 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.tldrColumn{
+    padding: 0px 0px 0px;
+}
 
 .categories{
     display: flex;

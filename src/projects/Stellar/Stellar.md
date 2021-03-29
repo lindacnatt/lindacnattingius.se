@@ -1,14 +1,18 @@
 ---
 title: "Stellar"
-date: "2020-09-17"
+date: "2020"
 featuredImage: ./rocket.png
 description: "Stellar is a AR-game that lets you create your own stellar system and interact with it in AR."
 categories: ["Unity","AR-Foundation"]
+role: ["UX/UI Designer", "Developer"]
+practices: ["Agile Development"]
 ---
 
-This is a project from the bAdvamced garphics and interaction course
+## Project
+This is a project from the Advanced Graphics and Interaction
 
-## Techniques
-1. UI
-2. Shaders
-3. 3d-modeling
+## Challenge
+## Process
+## Results
+## Insights
+
