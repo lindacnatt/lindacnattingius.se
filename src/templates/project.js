@@ -30,7 +30,7 @@ const ProjectTemplate = (props) => {
   return (
     <Layout>
       <div className={projectStyles.card}>
-        <h1 className={projectStyles.title} className="H2">{props.data.markdownRemark.frontmatter.title}</h1>
+        <h1 className={projectStyles.title}>{props.data.markdownRemark.frontmatter.title}</h1>
         <Img className={projectStyles.featuredImage} fluid={props.data.markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />
         <div className={projectStyles.tldrCard}>
         <div className={projectStyles.tldrColumn}>
