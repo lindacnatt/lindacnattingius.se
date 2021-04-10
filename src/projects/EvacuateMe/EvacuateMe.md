@@ -1,12 +1,13 @@
 ---
 title: "Evacuate Me"
-date: "2019"
+date: "March 2019"
 featuredImage: ./EvacuateMe.png
 description: "Evacuate Me is a quiz-game that suggests a planet to evacuate to based on user input"
 categories: ["Vue", "Firebase","SWAPI"]
 role: ["UX Designer", "Developer", "Concept"]
 practices: ["User-centered design", "Usability testing"]
 ---
+
 ## Project
 Evacuate Me is a 
 ## Challenge

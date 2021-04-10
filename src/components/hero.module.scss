@@ -1,6 +1,17 @@
 .hero{
     max-width: 100vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
+    *{
+        padding: 1rem;
+    }
+}
+.pb{
+    width: 30vw;
+    height: 80vh;
+    object-fit: cover;
+}
+.text{
+    width: 70vw;
+
 }

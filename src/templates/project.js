@@ -33,37 +33,33 @@ const ProjectTemplate = (props) => {
         <h1 className={projectStyles.title}>{props.data.markdownRemark.frontmatter.title}</h1>
         <Img className={projectStyles.featuredImage} fluid={props.data.markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />
         <div className={projectStyles.tldrCard}>
-        <div className={projectStyles.tldrColumn}>
+          <div className={projectStyles.tldrColumn}>
             <h3>Year</h3>
             <p className="D">{props.data.markdownRemark.frontmatter.date}</p>
           </div>
           <div className={projectStyles.tldrColumn}>
             <h3>Practices</h3>
-            <ul>{props.data.markdownRemark.frontmatter.practices.map((practice, index) => {
+            {props.data.markdownRemark.frontmatter.practices.map((practice, index) => {
               return (
-                <li className="D">{practice}</li>
+                <p key={index} className="D">{practice}</p>
               )
             })}
-            </ul>
           </div>
           <div className={projectStyles.tldrColumn}>
             <h3>Tools</h3>
-            <p className="D">{props.data.markdownRemark.frontmatter.category}</p>
-            <ul>{props.data.markdownRemark.frontmatter.categories.map((category, index) => {
+            {props.data.markdownRemark.frontmatter.categories.map((category, index) => {
               return (
-                <li className="D">{category}</li>
+                <p key={index} className="D">{category}</p>
               )
             })}
-            </ul>
           </div>
           <div className={projectStyles.tldrColumn}>
             <h3>Role</h3>
-            <ul>{props.data.markdownRemark.frontmatter.role.map((role, index) => {
+            {props.data.markdownRemark.frontmatter.role.map((role, index) => {
               return (
-                <li className="D">{role}</li>
+                <p key={index} className="D">{role}</p>
               )
             })}
-            </ul>
           </div>
         </div>
         <div className={projectStyles.projectInfo} dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}>

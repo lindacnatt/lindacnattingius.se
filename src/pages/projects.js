@@ -33,14 +33,14 @@ const ProjectsPage = () => {
     `)
   return (
     <div className={projectStyles.cardContainer}>
-      {data.allMarkdownRemark.edges.map((edge) => {
+      {data.allMarkdownRemark.edges.map((edge, idx) => {
         return (
-          <div key={edge.node.frontmatter.title} className={projectStyles.card}>
+          <div key={idx} className={projectStyles.card}>
             <div className={projectStyles.info}>
               <p className="H2">{edge.node.frontmatter.title}</p>
               <div className={projectStyles.categories}> {edge.node.frontmatter.categories.map((category, index) => {
                 return (
-                  <p className="D">{category}</p>
+                  <p key={index} className="D">{category}</p>
                 )})}
               </div>
               <p className={projectStyles.B}>{edge.node.frontmatter.description}</p>

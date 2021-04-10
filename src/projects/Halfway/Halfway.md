@@ -1,15 +1,15 @@
 ---
-title: "Stellar"
-date: "November 2020"
+title: "Halfway"
+date: "September 2020"
 featuredImage: ./rocket.png
 description: "Stellar is a AR-game that lets you create your own stellar system and interact with it in AR."
-categories: ["Unity","AR-Foundation"]
+categories: ["Swift","SwiftUI", "Firebase"]
 role: ["UX/UI Designer", "Developer"]
-practices: ["Agile Development"]
+practices: ["Usability testing"]
 ---
 
 ## Project
-This is a project from the Advanced Graphics and Interaction
+This is a personal project for an IOS app
 ## Challenge
 Hlello
 ## Process

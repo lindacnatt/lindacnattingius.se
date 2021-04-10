@@ -40,7 +40,9 @@ $QuadColor: #4b8585;
 
 
   @media screen and (max-width: 450px) {
-
+    .card{
+      flex-direction: column;
+    }
     .info{
       margin: 15px;
       .B{
@@ -50,9 +52,7 @@ $QuadColor: #4b8585;
     
   }
   @media screen and (max-width: 600px) and (min-width: 450px){
-    .card{
-      flex-direction: column;
-    }
+ 
     .info{
       margin: 20px;
       .B{
