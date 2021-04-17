@@ -14,7 +14,7 @@ const Layout = (props) => {
      }
     };
 
-    window.addEventListener('scroll', changeBackground)
+    
 
     return (
         <div className={ scroll ? 'html active' : 'html'}>
