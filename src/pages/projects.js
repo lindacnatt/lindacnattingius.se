@@ -34,6 +34,7 @@ const ProjectsPage = () => {
     `)
   return (
     <div className={projectStyles.cardContainer}>
+      <h3>PROJECTS</h3>
       {data.allMarkdownRemark.edges.map((edge, idx) => {
         return (
           <div key={idx} className={projectStyles.card}>

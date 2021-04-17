@@ -13,7 +13,7 @@ Litter Heroes is a concept of a mobile application which approaches the problem 
 ## Challenge
 Littering is a universal problem with multifaceted impacts on both our lives and the planet we inhabit. The challenge of this project was to create a mobile application that would both decrease littering and build awareness towards the environment.
 ## Process
-Interviews with the organizations and initiatives **Håll Sverige Rent** and **Sundybybergs stad** gave us knowledge of 
+Interviews with the organizations and initiatives **Håll Sverige Rent** and **Sundbybergs stad** gave us knowledge of 
 
 ## Results
 
