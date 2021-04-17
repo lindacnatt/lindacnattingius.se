@@ -17,56 +17,58 @@ $QuadColor: #4b8585;
 
 .card {
   display: flex;
-  flex-direction: row wrap;
   max-height: 110vw;
   min-height: 20vw;
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.151);
   margin-bottom: 3rem;
   overflow: hidden;
   background-color: white;
-
-  .featuredImage {
-   width: 100%;
-  }
-
-  .info {
-    margin: 40px;
-    margin-right: 80px;
-    .B{
-      font-size: $B;
-      padding-bottom: 8rem;
-    }
-  }
-
-
-  @media screen and (max-width: 450px) {
-    .card{
-      flex-direction: column;
-    }
-    .info{
-      margin: 15px;
-      .B{
-        padding-bottom: 2rem;
-      } 
-    }
-    
-  }
-  @media screen and (max-width: 600px) and (min-width: 450px){
- 
-    .info{
-      margin: 20px;
-      .B{
-        padding-bottom: 6rem;
-      }
-    }
-    
-  }
+  flex-direction: row;
 }
+.featuredImage {
+  flex: 1;
+}
+
+.info {
+flex: 1;
+margin: 40px;
+margin-right: 80px;
+}
+.B{
+  font-size: $B;
+  padding-bottom: 8rem;
+  line-height: 1.7;
+}
+
+
 
 @media screen and (max-width: 450px) {
-  
+  .card{
+    flex-direction: column-reverse;
+  }
+  .info {
+    margin: 1rem;
+    .B{
+      padding-bottom: 2rem;
+    } 
+  }
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 450px){
+  .card{
+    flex-direction: column-reverse;
+  }
+  .info{
+    margin: 2rem;
+    .B{
+      padding-bottom: 3rem;
+    }
+  }
 
 }
+
+
 
 .categories{
   display: flex;
@@ -88,7 +90,6 @@ $QuadColor: #4b8585;
   transition: ease-out 0.3s;
 }
 .moreButton:hover{
-
   box-shadow: inset 300px 0 0 0 black;
   color: white;
   border-color: black;
