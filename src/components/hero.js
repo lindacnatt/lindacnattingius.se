@@ -25,10 +25,10 @@ const Hero = () => {
     return (
         <div className={heroStyles.hero} >
             <div className={heroStyles.text}>
-            <h1>Linda Cnattingius</h1>
-            <h3>A developer with a passion for graphic design, animation and experience design</h3>  
+            <p className={heroStyles.title}>Hello</p>
+            <p className={heroStyles.undertext}>I'm Linda, an experience developer with passion for graphic design and motion design</p>  
             </div>
-            <Img fluid={data.file.childImageSharp.fluid} className={heroStyles.pb} />  
+            {/* <Img fluid={data.file.childImageSharp.fluid} className={heroStyles.pb} />   */}
         </div>
     )
 }

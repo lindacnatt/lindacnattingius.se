@@ -13,10 +13,13 @@
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding-bottom: 1.3rem;
     margin: 1rem;
+    * {
+        padding: 1rem;
+    }
 }
 
 .name{
