@@ -1,7 +1,7 @@
 ---
 title: "Halfway"
 date: "September 2020"
-featuredImage: ./rocket.png
+featuredImage: ./session.png
 description: "Halfway is an IOS-App that facilitates spontaneous outdoor meetings among friends"
 categories: ["Swift","SwiftUI", "Firebase"]
 role: ["UX/UI Designer", "Developer"]

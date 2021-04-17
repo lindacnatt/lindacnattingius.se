@@ -2,7 +2,8 @@ import React from "react"
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import Img from 'gatsby-image'
 import projectStyles from './projects.module.scss'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
 
 const ProjectsPage = () => {
   const data = useStaticQuery(graphql`
@@ -45,7 +46,7 @@ const ProjectsPage = () => {
               </div>
               <p className={projectStyles.B}>{edge.node.frontmatter.description}</p>
               <Link to={`/projects/${edge.node.fields.slug}`} className={projectStyles.moreButton}>
-                See more 
+                See more <FontAwesomeIcon icon={faLongArrowAltRight} />
               </Link>
             </div>
             <Img className={projectStyles.featuredImage} fluid={edge.node.frontmatter.featuredImage.childImageSharp.fluid} />

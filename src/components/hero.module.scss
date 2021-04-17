@@ -2,17 +2,16 @@
     max-width: 100vw;
     height: 80vh;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: wrap;
     padding-top: 3rem;
     .pb{
-        flex: 2;
-        height: 60vh;
+        flex: 1;
+        height: 50vh;
     }
     .text{
         flex: 1;
-        padding-top: 5rem;
-        padding-right: 2rem;
+        padding-right: 2rem;     
     }
 }
 
@@ -20,12 +19,25 @@
     font-weight: bold;
     font-size: 5rem;
 }
+.undertext{
+    line-height: 1.6;
+    font-size: 1.5rem;
+}
 @media screen and (max-width: 450px) {
     .hero{
-      flex-direction: column;
+      flex-direction: column-reverse;
     }
     .pb{
-        height: 40vh;
+        height: 30vh;
+        margin-bottom: 1rem;
+    }
+    .title {
+        font-weight: bold;
+        font-size: 3rem;
+    }
+    .undertext{
+        line-height: 1.6;
+        font-size: 1.2rem;
     }
 
 }

@@ -1,15 +1,18 @@
 .link {
-    color: #8b8b8b;
+    color: #313131;
     text-decoration: none;
+    transition: ease-out 0.2s;
+    text-transform: uppercase;
+    font-size: small;
 }
 
 .link:hover{
-    color: #201997;
+    color: #c00000;
 
 }
 
 .activeNavItem{
-    color: #727272;
+    color: #c00000;
 }
 .navbar{
     display: flex;
