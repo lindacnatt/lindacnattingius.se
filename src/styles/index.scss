@@ -17,6 +17,11 @@ html {
     background-color: $mainColor;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    
+  }
+  .active{
+    transition: all ease-out 0.3s;
+    background-color: rgb(238, 220, 250);
   }
   body {
     margin: 0;
@@ -43,3 +48,5 @@ html {
     font-size: $D;
     text-transform: uppercase;
   }
+
+
