@@ -81,7 +81,7 @@ $QuadColor: #4b8585;
     flex-direction: column-reverse;
   }
   .info {
-    margin: 1rem;
+    margin: 0.9rem;
   }
   .B {
     font-size: 0.7;
@@ -92,6 +92,10 @@ $QuadColor: #4b8585;
   }
   .moreButton {
     padding-top: 0rem;
+    font-size: 0.8rem;
+  }
+  .featuredImage {
+    flex: 1;
   }
 }
 
@@ -100,7 +104,7 @@ $QuadColor: #4b8585;
     flex-direction: column-reverse;
   }
   .info {
-    margin: 2rem;
+    margin: 1.5rem;
   }
   .moreButton {
     padding-top: 1rem;
