@@ -39,7 +39,7 @@ const ProjectsPage = () => {
         return (
           <div key={idx} className={projectStyles.card}>
             <div className={projectStyles.info}>
-              <p className="H2">{edge.node.frontmatter.title}</p>
+              <p className={projectStyles.H2}>{edge.node.frontmatter.title}</p>
               <div className={projectStyles.categories}> {edge.node.frontmatter.categories.map((category, index) => {
                 return (
                   <p key={index} className="D">{category}</p>

@@ -22,8 +22,11 @@ const Header = () => {
     return (
         <div className={headerStyles.header}>
             <div className={headerStyles.navbar}>
+            <Link className={headerStyles.name} to="/">Linda Cnattingius</Link>
+            <div className={headerStyles.links}>
                 <Link className={headerStyles.link} to="/about">About</Link>
                 <Link className={headerStyles.link} to="/contact">Contact</Link>
+            </div>
             </div>
     </div>
     )
