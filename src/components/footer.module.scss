@@ -1,0 +1,20 @@
+.last{
+    border-top: 0.5px solid rgba(27, 27, 27, 0.171);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        color: rgba(0, 0, 0, 0.568);
+    }
+    img{
+        width: 30px;
+        opacity: 0.7;
+    }
+    a{
+        padding-left: 1rem;
+    }
+}
+.foot{
+    margin-top: 3rem;
+}
+

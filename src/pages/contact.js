@@ -9,10 +9,10 @@ const ContactPage = () => {
         <Layout>
             <div className={AboutStyles.content}>
                 <div className={AboutStyles.text}>
-                    <h1>About me</h1>
-                    <p className={AboutStyles.description}>I'm a developer in love with visual and graphic design</p>
+                    <h1>Contact</h1>
+                    <p className={AboutStyles.description}>Check out my github or my resumé. Feel free to contect me at "lindacn@kth.se"</p>
                 </div>
-                <img className={AboutStyles.pb} src={pb} />
+                
             </div>
         </Layout>
     )

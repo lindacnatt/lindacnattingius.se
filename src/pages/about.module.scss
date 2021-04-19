@@ -1,9 +1,18 @@
-.pb{
-    width: 30vw;
-}
 .content{
-    display: flex;
-    * {
-        padding: 1rem;
+    padding-top: 3rem;
+    line-height: 1.7;
+
+}
+.link{
+    text-decoration: none;    
+    font-weight: bold;
+    p{
+        margin-top: 3rem;
+
     }
+
+}
+.link:hover {
+    color: rgb(104, 104, 104);
+
 }

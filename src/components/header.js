@@ -1,9 +1,6 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import { useState } from 'react';
-import Hamburger from '../components/hamburger'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 
 import headerStyles from './header.module.scss'
@@ -25,7 +22,7 @@ const Header = () => {
             <Link className={headerStyles.name} to="/">Linda Cnattingius</Link>
             <div className={headerStyles.links}>
                 <Link className={headerStyles.link} to="/about">About</Link>
-                <Link className={headerStyles.link} to="/contact">Contact</Link>
+               
             </div>
             </div>
     </div>
