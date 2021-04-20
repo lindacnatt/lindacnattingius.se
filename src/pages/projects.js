@@ -36,7 +36,7 @@ const ProjectsPage = () => {
       <h3>PROJECTS</h3>
       {data.allMarkdownRemark.edges.map((edge, idx) => {
         return (
-          <div key={idx} className={projectStyles.card}>
+          <Link to={`/projects/${edge.node.fields.slug}`} key={idx} className={projectStyles.card}>
             <div className={projectStyles.info}>
               <p className={projectStyles.H2}>{edge.node.frontmatter.title}</p>
               <div className={projectStyles.categories}> {edge.node.frontmatter.categories.map((category, index) => {
@@ -50,7 +50,7 @@ const ProjectsPage = () => {
               </Link>
             </div>
             <Img className={projectStyles.featuredImage} fluid={edge.node.frontmatter.featuredImage.childImageSharp.fluid} />
-          </div>
+          </Link>
         )
       })}
     </div>
