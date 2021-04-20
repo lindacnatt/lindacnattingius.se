@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Img from 'gatsby-image'
 import projectStyles from './project.module.scss'
+import { Link } from 'gatsby'
 
 export const query = graphql`
 query ($slug:String) {
@@ -64,6 +65,7 @@ const ProjectTemplate = (props) => {
         </div>
         <div className={projectStyles.projectInfo} dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}>
         </div>
+        <Link className={projectStyles.link} to="/"><p> ⟵ Go back</p></Link>
       </div>
     </Layout>
   )
