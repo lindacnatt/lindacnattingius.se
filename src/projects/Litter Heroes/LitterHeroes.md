@@ -20,11 +20,10 @@ The main objective of the game is to complete several missions. The missions are
 
 ![Litter](./Litter.png)
 
-The application consists mainly of an interactive visualization. It consists of an illustrative image of a forest and interactive elements in the form of pieces of litter and trash. These litter pieces are scattered throughout the forest and invite the users to clean it up by picking up litter in their local area.
-
-As the litter is picked up in the real world, the pieces of litter disappear in the application’s forest. The aesthetics for the visualization have an important role in keeping the user’s attention as well as being appealing to them. Therefore a cartoon-like and colorful art style is used.
+The application consists mainly of an interactive visualization. It consists of an illustrative image of a forest and interactive elements in the form of pieces of litter and trash. These litter pieces are scattered throughout the forest and invite the users to clean it up by picking up litter in their local area. As the litter is picked up in the real world, the pieces of litter disappear in the application’s forest. The aesthetics for the visualization have an important role in keeping the user’s attention as well as being appealing to them. Therefore a cartoon-like and colorful art style is used.
 
 The game guide character is an anthropomorphic hedgehog that is designed to have a cute appearance and to evoke altruistic behaviours among the user.
+
 
 Check out the Figma prototype [here](https://www.figma.com/proto/EF84OjGYwnTvbKCt0koe9W/Skr%C3%A4papp?node-id=32%3A2&scaling=min-zoom)
 
