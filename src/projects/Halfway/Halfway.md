@@ -14,12 +14,10 @@ Halfway propose the development of technology for easy spontaneous physical meet
 ## Challenge
 The challenge was to create an innovative map-based application that fills the need of social meetings during social distancing.
 ## Process
-Using **Etnographic studies** insights on how people behave in situations of planning a date with friends inspired the the functionality of the application. A high fidelity prototype was created in **Figma** and was usability tested before developed using Swift.
+Using **Etnographic studies** insights on how people behave in situations of planning a date with friends inspired the the functionality of the application. A high fidelity prototype was created in **Figma** and was **usability tested** before developed using Swift. The finalized version of the application was also usability tested and gave insights of the need of this kind of application and also that the aspects of simplicity and micro-interactions enhanced the user experience. 
 ## Results
 A finalized application, that soon will be available on Testflight.
 
 ![Halfway](./Halfwayimg.png)
 
-## Insights
-This is a MVP version of this application and further developemnt would inquire support for other transportation than walking, such as cycling or public transportation.
 
