@@ -37,7 +37,7 @@ The core concept is to let users send invitations to friends, letting them tempo
 
 ## My role
 As this application was created by a small team of 3 people, we all had several roles. My main roles were:
-1. **UX/UI design** - Where I both designed and created prototypes of the visual design in Figma as well as usability tested them. I also created the animations and logotype of the app.
+1. **UX/UI design** - Where I both designed and created prototypes of the visual design and user flow in Figma as well as usability tested them. I also created the animations and logotype of the app.
 2. **IOS-Developer** - Where I developed several screens of the application, such as the "sign in"-page and landing page. I also was responsible of the back-end which we used Firebase for. I created the database structures for each "Halfway"-session. 
 3. **Project Manager** - I took on the responsibility of structuring and planning our work process, by setting up a kanban board, creating a Notion page with subpages for each step of the design- developing- and report writing process.
 

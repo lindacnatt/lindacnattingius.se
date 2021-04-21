@@ -12,7 +12,7 @@ const AboutPage = () => {
                     <h1>About me</h1>
                     <p className={AboutStyles.description}>Hello! I'm Linda - a curious and ambitious developer with a passion for everything design.</p>
                     <p>I have a degree in Interactive Media Technology and HCI with the specialization in Visual Media from the Royal Institute of Technology in Stockholm. 
-                    My core skills lie in the intersection of design and development, which means that I have skills in designing <b>digtial</b> and <b>interactive experiences</b>, as well as in developing final versions of those designs. 
+                    My core skills lie in the intersection of design and development, which means that I have skills in designing <b>digital</b> and <b>interactive experiences</b>, as well as in developing final versions of those designs. 
                     <p>
                     I have gained my skills and experiences from my education, 
                     but also from collaborations with KTH’s student union magazine Osqledaren and from my two years as a Graphic Designer at the consulting company Netlight. 
