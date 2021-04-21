@@ -1,6 +1,7 @@
 .hero{
     max-width: 100vw;
-    height: 70vh;
+   max-height: 800px;
+   min-height: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -30,7 +31,7 @@
       padding-top: 2rem;
     }
     .pb{
-        flex: 2;
+        min-height: 250px;
         margin-bottom: 0.5rem;
     }
 
