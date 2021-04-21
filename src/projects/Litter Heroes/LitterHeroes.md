@@ -28,4 +28,5 @@ The game guide character is an anthropomorphic hedgehog that is designed to have
 Check out the Figma prototype [here](https://www.figma.com/proto/EF84OjGYwnTvbKCt0koe9W/Skr%C3%A4papp?node-id=32%3A2&scaling=min-zoom)
 
 
-
+## My role
+In this team we all had overarching roles, but my focus area was mainly on the UX and UI design of the application. I created and designed the main illustrations and visualization using **Illustrator** and then importing it to **Figma**. In Figma my coworker and I added the functionality and finalized the high-fidelity prototype. 
