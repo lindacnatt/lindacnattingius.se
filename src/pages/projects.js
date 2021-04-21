@@ -7,7 +7,9 @@ import projectStyles from './projects.module.scss'
 const ProjectsPage = () => {
   const data = useStaticQuery(graphql`
     query{
-      allMarkdownRemark{
+      allMarkdownRemark (
+        sort: { fields: frontmatter___id, order: ASC }
+      ){
         edges{
           node{
             frontmatter{

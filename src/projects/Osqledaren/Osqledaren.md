@@ -1,4 +1,5 @@
 ---
+id: 3
 title: "Osqledaren"
 date: "September 2019"
 featuredImage: ./Osq.png

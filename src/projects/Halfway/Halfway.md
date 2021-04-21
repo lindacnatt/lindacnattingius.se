@@ -1,4 +1,5 @@
 ---
+id: 1
 title: "Halfway"
 date: "September 2020"
 featuredImage: ./session.png
@@ -15,11 +16,11 @@ Halfway propose the development of technology for easy spontaneous physical meet
 Our goal was to create an innovative map-based application that fills the need of social meetings during social distancing.
 
 Our high level goals were to make it:
-1. **Easy** - Without having to write in all the locations, the app automatically uses all the participants  locations to calculate a meeting point. The app creates a session where you can include people who have not used the app 
+1. **Easy** - Without having to write in all the locations, the app automatically uses all the participants locations to calculate a meeting point. The app creates a session where you can include people who have not used the app 
 
 2. **Safe** - Promotes walking and outdoor meetings. 
 
-3. **Fun** - Be able to see each other on the map and see that you're both travelling towards the same location. Flow, Gamification, Animations, Interesting loading screens, haptic feedback
+3. **Fun** - Be able to see each other on the map and see that you're both travelling towards the same location. Flow, Gamification,Animations, Interesting loading screens, haptic feedback
 
 
 ## Process

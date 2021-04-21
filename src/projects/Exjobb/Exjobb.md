@@ -1,4 +1,5 @@
 ---
+id: 6
 title: "Master thesis"
 date: "Spring 2021"
 featuredImage: ./easing.png
