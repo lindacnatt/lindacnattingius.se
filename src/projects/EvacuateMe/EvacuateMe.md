@@ -18,7 +18,7 @@ The game includes customizing your own avatar, choose your preferences of differ
 
 ![Create Avatar](./createavatar.png)
 
-Check out the **webpage** [here](https://evacuate-me-d8a07.firebaseapp.com/) and the **Github** repository [here](https://github.com/lindacnatt/Evacuate-Me)
+Check out the webpage [here](https://evacuate-me-d8a07.firebaseapp.com/) and the Github repository [here](https://github.com/lindacnatt/Evacuate-Me)
 
 
 
