@@ -14,11 +14,14 @@ The world has come to an end and you have to move to a new planet, but where sho
 ## Challenge
 The main challenge was to create a fun and interactive experience while using an API of choice. SWAPI was chosen due to its endless of data and possibilities of creating an exciting game. 
 ## Results 
-The game includes customizing your own avatar, choose your preferences of different characteristics of the planet and then in the end see which people have been evacuated to the same planet.
+The game includes customizing your own avatar, choose your preferences of different characteristics of the planet and then lastly see which people have been evacuated to the same planet.
+### My role  
+My contribution for this project was mainly concept work as well as developing the "Create Avatar"-view where (see image below), and the "Time selection"-view and the final view along with the space ship animation. I focused mainly on the visuals of the webpage where I created several visualizations and animations using CSS and SVG, but I also developed the functionality of those pages in Vue.js.
 
 ![Create Avatar](./createavatar.png)
 
 Check out the webpage [here](https://evacuate-me-d8a07.firebaseapp.com/) and the Github repository [here](https://github.com/lindacnatt/Evacuate-Me)
+
 
 
 

@@ -14,7 +14,7 @@ Litter Heroes is a concept of a mobile application which approaches the problem 
 ## Challenge
 Littering is a universal problem with multifaceted impacts on both our lives and the planet we inhabit. The challenge of this project was to create a mobile application that would both decrease littering and build awareness towards the environment.
 ## Process
-Collaborations with the organizations and initiatives **Håll Sverige Rent** and **Sundbybergs stad** ave insights into how they work with children to teach them about reducing litter which gave us inspiration for our prototype.
+Collaborations with the organizations and initiatives **Håll Sverige Rent** and **Sundbybergs stad** gave insights into how they work with children to teach them about reducing litter which gave us inspiration for our prototype.
 
 ## Results
 The main objective of the game is to complete several missions. The missions are all structured so that the user is supposed to find a certain type of litter and to photograph and properly dispose of the litter. By completing the missions the user helps the hedgehog to clear his forest of litter so he and his friends will not get hurt by it. 
