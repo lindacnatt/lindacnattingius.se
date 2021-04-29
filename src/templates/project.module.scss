@@ -2,6 +2,10 @@
     padding-top: 30px;
     
 }
+.featuredImage{
+    object-fit: contain;
+    object-position: center center;
+}
 .tldrCard{
     display: flex;
     flex-direction: row;

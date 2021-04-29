@@ -27,6 +27,8 @@ $QuadColor: #4b8585;
 }
 .featuredImage {
   flex: 2;
+  object-position: center center;
+  object-fit: contain;
 }
 
 .H2 {

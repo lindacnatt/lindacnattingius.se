@@ -19,7 +19,7 @@ const ProjectsPage = () => {
               description
               featuredImage{
                 childImageSharp{
-                  fluid(maxWidth:600, maxHeight: 500){
+                  fluid(maxWidth:600, maxHeight: 500, quality: 100){
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -51,7 +51,7 @@ const ProjectsPage = () => {
                 See more <p>⟶</p>
               </Link>
             </div>
-            <Img className={projectStyles.featuredImage} fluid={edge.node.frontmatter.featuredImage.childImageSharp.fluid} />
+            <Img  className={projectStyles.featuredImage} fluid={edge.node.frontmatter.featuredImage.childImageSharp.fluid} />
           </Link>
         )
       })}

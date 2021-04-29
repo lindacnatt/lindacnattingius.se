@@ -17,7 +17,7 @@ query ($slug:String) {
         practices
         featuredImage{
           childImageSharp{
-            fluid(maxWidth:600, maxHeight: 300){
+            fluid(maxWidth:600, maxHeight: 300, quality: 100){
               ...GatsbyImageSharpFluid
             }
           }

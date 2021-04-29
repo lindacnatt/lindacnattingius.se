@@ -2,7 +2,7 @@
 id: 2
 title: "Litter Heroes"
 date: "November 2020"
-featuredImage: ./First.png
+featuredImage: ./LitterPreview.png
 description: "Litter Heroes is a mobile application which approaches the problem of littering by creating a fun and educational experience for children"
 categories: ["Figma","Illustrator"]
 role: ["UI/UX Designer"]
