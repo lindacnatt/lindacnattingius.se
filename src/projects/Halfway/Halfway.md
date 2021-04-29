@@ -27,6 +27,13 @@ Our high level goals were to make it:
 By researching the state-of-the-art of mobile applications for finding friends, we could see a lack of focus of the meeting-up aspect. Many apps focused solely on displaying realtime updates of friends geo-locations or only on finding certain locations on the map. 
 
 By sending out surveys in different channels and forums, we received insights of how people behave and what tools are used in situations of planning and discussing meet ups with friends. The results inspired the main functionalities of the application. A high-fidelity prototype was created in **Figma** and **usability tested** before the application was developed using Swift. The finalized version of the application was also usability tested and gave insights of the need of this kind of application and also that the aspects of simplicity and micro-interactions enhanced the user experience. 
+
+## My role
+As this application was created by a small team of 3 people, we all had several roles. My main roles were:
+1. **UX/UI design** - Where I both designed and created prototypes of the visual design and user flow in Figma as well as usability tested them. I also created the animations and logotype of the app.
+2. **IOS-Developer** - Where I developed several screens of the application, such as the "sign in"-page and landing page. I also was responsible of the back-end which we used Firebase for. I created the database structures for each "Halfway"-session. 
+3. **Project Manager** - I took on the responsibility of structuring and planning our work process, by setting up a kanban board, creating a Notion page with subpages for each step of the design- developing- and report writing process.
+
 ## Results
 A finalized application, that soon will be available on Testflight.
 
@@ -35,11 +42,7 @@ The core concept is to let users send invitations to friends, letting them tempo
 ![Halfway](./Halfwayimg.png)
 
 
-## My role
-As this application was created by a small team of 3 people, we all had several roles. My main roles were:
-1. **UX/UI design** - Where I both designed and created prototypes of the visual design and user flow in Figma as well as usability tested them. I also created the animations and logotype of the app.
-2. **IOS-Developer** - Where I developed several screens of the application, such as the "sign in"-page and landing page. I also was responsible of the back-end which we used Firebase for. I created the database structures for each "Halfway"-session. 
-3. **Project Manager** - I took on the responsibility of structuring and planning our work process, by setting up a kanban board, creating a Notion page with subpages for each step of the design- developing- and report writing process.
+
 
 
 
