@@ -3,7 +3,7 @@ id: 5
 title: "Challenge Me"
 date: "May 2019"
 featuredImage: ./challengemeimage.png
-description: "Evacuate Me is a quiz-game that suggests a planet to evacuate to based on user input"
+description: "Challenge Me is an app for challenging your skater friends to bust a trick at specific locations."
 categories: ["React Native", "Firebase","Google Maps API"]
 role: ["UX Designer", "Developer"]
 practices: ["User-centered design", "Usability testing"]
