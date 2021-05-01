@@ -26,7 +26,7 @@ const Hero = () => {
         <div className={heroStyles.hero} >
             <div className={heroStyles.text}>
             <p className={heroStyles.title}>Hello 👋</p>
-            <p className={heroStyles.undertext}>I'm Linda, a <b>developer</b> with a passion for <b>UX</b>, <b>graphic design</b> and <b>animations</b></p>  
+            <p className={heroStyles.undertext}>I'm Linda, a <b>designer</b> and <b>developer</b> with a passion for UX, graphic design and animations</p>  
             </div>
             <Img fluid={data.file.childImageSharp.fluid} className={heroStyles.pb} /> 
         </div>

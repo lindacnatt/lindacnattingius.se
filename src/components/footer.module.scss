@@ -20,5 +20,27 @@
 }
 .foot{
     margin-top: 4.5rem;
+    p{
+        a {
+            text-decoration: none;
+            position: relative;
+          }
+        a::after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 3px;
+            top: 90%;
+            left: 0;
+            background: rgb(134, 36, 226);
+            transition: transform 0.3s ease-out;
+            transform: scaleX(1);
+            transform-origin: left;
+          }
+          a:hover::after {
+            transform: scaleX(0);
+            transform-origin: right;
+          }
+    }
 }
 

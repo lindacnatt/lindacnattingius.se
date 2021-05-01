@@ -2,7 +2,7 @@
 id: 1
 title: "Halfway"
 date: "September 2020"
-featuredImage: ./session.png
+featuredImage: ./HalfwayMain.png
 description: "Halfway is an IOS-App that facilitates spontaneous outdoor meetings among friends"
 categories: ["Swift","SwiftUI", "Firebase"]
 role: ["UX/UI Designer", "Developer"]
@@ -30,9 +30,9 @@ As this application was created by a small team of 3 people, we all had several 
 
 
 ## Process
-By researching the state-of-the-art of mobile applications for finding friends, we could see a lack of focus of the meeting-up aspect. Many apps focused solely on displaying realtime updates of friends geo-locations or only on finding certain locations on the map. 
+By researching the state-of-the-art of mobile applications for finding friends, we could see that several apps did not have much focus on the meeting-up aspect. Many apps focused solely on displaying realtime updates of friends geo-locations or only on finding certain locations on the map. There was no application that combined the two. 
 
-By sending out surveys in different channels and forums, we received insights of how people behave and what tools are used in situations of planning and discussing meet ups with friends. The results inspired the main functionalities of the application. A high-fidelity prototype was created in **Figma** and **usability tested** before the application was developed using Swift. The finalized version of the application was also **usability tested** and gave the insights that there was a need of this kind of application and that the aspects of simplicity and micro-interactions enhances the user experience. 
+By sending out surveys in different channels and forums on social media, we received insights of how people behave and what tools are used in situations of planning and discussing meet ups with friends. The results inspired the main functionalities of the application. A high-fidelity prototype was created in **Figma** and **usability tested** before the application was developed using Swift. The finalized version of the application was also **usability tested** and gave the insights that there was a need of this kind of application and that the aspects of simplicity and micro-interactions enhances the user experience. 
 
 ![Halfway](./figma2.png)
 *First draft of the high-fidelity prototype*

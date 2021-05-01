@@ -7,8 +7,11 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title:'Lindas Portfolio',
+    title:'Linda Cnattingius',
     author: 'Linda Cnattingius',
+    url: "https://lindacnatt.netlify.app/",
+    img: "/favicon.ico",
+  
 
   },
   flags: {

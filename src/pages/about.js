@@ -1,12 +1,14 @@
 import React from "react"
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
+import Seo from '../components/Seo'
 
 import AboutStyles from './about.module.scss'
 
 const AboutPage = () => {
     return (
         <Layout>
+            <Seo title="About Linda"/>
             <div className={AboutStyles.content}>
                 <div className={AboutStyles.text}>
                     <h1>About me</h1>
