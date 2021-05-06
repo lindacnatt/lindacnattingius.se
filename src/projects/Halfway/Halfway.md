@@ -42,7 +42,7 @@ A finalized application, that soon will be available on Testflight. Below you ca
 
 ![Halfway](./workflow.png)
 
-The core concept is to let users send invitations to friends, letting them temporarily see each other’s positions, and allow the application to suggest locations in which to meet up. The app strives to optimize time and distance for all parties and to suggest separate real-time navigation to a joint meeting point in an attempt to make meeting up as easy as possible.
+The core concept is to let users send invitations to friends, letting them temporarily see each other’s positions, and allow the application to suggest locations in which to meet up. The app strives to optimize time and distance for all parties and to suggest separate real-time navigation to a joint meeting point in an attempt to make meeting up as easy as possible. This is not an social media app but rather a tool for quickly setting up meetings with friends. Just send a session link to your friend through Messenger, WhatsApp or text message and meet them Halfway!
 
 ![Halfway](./Halfwayimg.png)
 
