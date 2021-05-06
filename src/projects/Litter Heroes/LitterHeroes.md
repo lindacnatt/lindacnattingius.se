@@ -33,7 +33,7 @@ The game guide character is an anthropomorphic hedgehog that is designed to have
 Check out the Figma prototype below or [here](https://www.figma.com/proto/EF84OjGYwnTvbKCt0koe9W/Skr%C3%A4papp?node-id=32%3A2&scaling=min-zoom)
 
 <figure class="video_container">
- <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEF84OjGYwnTvbKCt0koe9W%2FSkr%25C3%25A4papp%3Fnode-id%3D32%253A2%26scaling%3Dscale-down" allowfullscreen></iframe>
+ <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEF84OjGYwnTvbKCt0koe9W%2FSkr%25C3%25A4papp%3Fnode-id%3D32%253A2%26scaling%3Dscale-down" allowfullscreen></iframe>
 </figure>
 
 
